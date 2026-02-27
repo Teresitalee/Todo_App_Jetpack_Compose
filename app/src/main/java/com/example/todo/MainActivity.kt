@@ -67,5 +67,14 @@ fun MainMenu(modifier: Modifier = Modifier) {
         ) {
             Text("ToDo- Tareas")
         }
+        Button(
+            onClick = {
+                val intent = Intent(context, TriviaActivity::class.java)
+                context.startActivity(intent)
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Trivia")
+        }
     }
 }

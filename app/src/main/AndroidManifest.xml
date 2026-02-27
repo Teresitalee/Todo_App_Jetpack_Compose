@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".CounterAppActivity" />
         <activity android:name=".TodoAppActivity" />
+        <activity android:name=".TriviaActivity" />
     </application>
 
 </manifest>
